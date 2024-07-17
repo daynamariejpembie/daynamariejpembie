@@ -1,0 +1,474 @@
+* {
+    margin: 0 auto;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+html,body
+{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+}
+html {
+    background-color: black;
+    color: white;
+    width: 100%
+}
+
+                                            /* Header */
+
+header {
+    width: 100%;
+}
+/*The Header Background picture*/
+.bi {
+    position: absolute;
+    height: 850px;
+    width: 100%;
+    opacity: 0.45;
+    z-index: -1;
+    overflow: hidden;
+}
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    opacity: 1;
+    margin-top: 15%;
+}
+.logo-name {
+    width: 8.75rem;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: 12%;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    font-size: 25px;
+}
+.header-p2 {
+    font-size: 22px;
+}
+/* Language Drop-Down */
+.top-buttons {
+    width: 100%;
+    position: absolute;
+    left: 72%;
+    top: 4%;
+}
+.langthang {
+    font-weight: bold;
+    font-size: 0.6rem;
+    margin-right: 5px;
+}
+.arrow1 {
+    font-size: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.dropbtn {
+background-color: rgb(22, 22, 22);
+opacity: 0.70;
+color: white;
+padding: 5px 15px 6px 15px;
+border: 1px solid white;
+border-radius: 5px;
+}
+.english {
+    font-size: 17px;
+    font-weight: 500;
+}
+.dropdown-content a:hover, .dropdown-content a:focus {
+    background-color: rgb(33, 33, 255);
+    color: white;
+}
+.dropbtn:active {
+    border: double;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+}
+.dropdown-content a {
+    color: black;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+.dropdown.active {
+    display: block;
+}
+.show{display: block;}
+
+/*Sign-In Button*/
+.sign-in {
+    position: relative;
+    top: -2px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 3px 15px 30px 15px;
+    height: 2rem;
+    margin-right: 150px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/*Email Input*/
+.emailform {
+    display: flex;
+    margin-top: 20px;
+}
+.text {
+    background-color:rgb(22, 22, 22);
+    color: white;
+    padding: 8px 300px 30px 15px;
+    opacity: 0.70;
+    font-size: 15px;
+    border: 1px white solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/*Get Started Buttons*/
+.gs {
+    background-color: red;
+    color: white;
+    padding: 0.25rem 3rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+}
+
+/* Gradient */
+.gradient {
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    width: 87.5%;
+    margin-left: 5%;
+    margin-top: 12%;
+    height: 100px;
+    padding: 22px;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+}
+.gradient h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.gradient p {
+    font-size: 1rem;
+    line-height: 4;
+   
+}
+.gradient a {
+    font-size: 1rem;
+    color: #448ef4;
+    font-weight: 600;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+.arrow-lm {
+    border: solid #448ef4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+.cost {
+    line-height: 0.05;
+    margin-left: -250px;
+}
+/* Popcorn */
+.popcorn {
+    width: 90px;
+    height: 90px;
+    margin-right: 300px;
+}
+div.border {
+    border-bottom: 7.5px solid rgb(45, 45, 45);
+}
+
+/*Enjoy On Your TV*/
+.tv {
+    margin-top: 150px;
+   /* margin-right: 100px;
+    margin-left: 100px;*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.tv h1, .tv p{
+    position: relative;
+    left: 150px;
+}
+.teevee {
+    width: 60%;
+    position: relative;
+    top: 215px;
+    right: -200px;
+}
+.tv-screen {
+    position: relative;
+    bottom: 180px;
+    right: -250px;
+    width: 50%;
+    z-index: -1;
+}
+.height p {
+    line-height: 1.25;
+    font-size: 1.4rem;
+}
+.height h1 {
+    margin-bottom: 15px;
+}
+.height {
+    height: 675px;
+    
+}
+
+
+/* Devices Section */
+
+.devices {
+   display: flex; 
+}
+.devices h1, .devices p {
+    position: relative;
+    top: 185px;
+    right: 200px;
+}
+.devices img {
+    position: relative;
+    top: 20%;
+    left: 15%;
+    height: 60%
+}
+.devices-video {
+    z-index: -1;
+    position: relative;
+    top: -38%;
+    left: 27%;
+    width: 40%;
+    height: 35%;
+
+}
+
+                                            /* Kids Section*/
+.kids {
+    display: flex;
+    align-items: center;
+}
+.kids img {
+    position: relative;
+    right: 100px;
+    width: auto;
+    height: 425px;
+}
+.kids h1, .kids p {
+    position: relative;
+    left: 100px;
+}
+
+/* Download Section */
+.download {
+    display: flex;
+}
+.download-img {
+    width: 92%;
+    position: relative;
+    left: 240px;
+    top: 100px;
+}
+.download h1 {
+    width: 60%;
+}
+.download h1, .download p {
+position: relative;
+right: -100px;
+top: 100px;
+
+}
+
+.ST {
+    display: flex;
+    border: 3px solid rgb(91, 91, 91);
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    width: 275px;
+    background-color: black;
+    position: relative;
+    top: -7%;
+    left: 34%;
+}
+.ST img {
+    width: 65px;
+    height: 9%;
+    margin-left: -20px;
+}
+.st-words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 55px;
+
+}
+.st-words p {
+    font-size: 14px;
+    color: #0071eb;
+    margin-left: 0px;
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+.ST video {
+    width: 20%;
+    margin-right: -25px;
+}
+.download-heading {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 80px;
+}
+.download-heading p {
+    position: relative;
+    right: -30px;
+    
+}
+/* FAQ */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    border-bottom: 7.5px solid rgb(45, 45, 45);
+}
+.accordion h1 {
+    margin-bottom: 23px;
+}
+.accordion-item {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 25px; 
+    background-color: rgb(45, 45, 45);
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.accordion-title::after {
+    content: '';
+    position: relative;
+
+}
+
+.accordion-content {
+    padding: 15px;
+    font-size: 1.5rem; 
+    display: none;
+    background-color: rgb(45, 45, 45);
+}
+
+.accordion-content.active {
+    display: block;
+}
+.plus {
+display: inline-flex;
+font-size: 4.5rem;
+font-weight: 100;
+position: absolute;
+top: 40%;
+right: 20px;
+transform: translateY(-50%);
+
+}
+.accordion-item.active .plus {
+    transform-origin: center;
+    transform: translateY(-50%) rotate(45deg);
+    translate: 10%;
+    transition: 30ms;
+}
+
+/*Second Email Input*/
+.email-second {
+    margin-top: 40px;
+    margin-bottom: 75px;
+
+}
+.email-second p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+.email-second button {
+    position: relative;
+    top: 16px;
+}
+/*Footer*/
+.questions {
+    margin-bottom: 30px;
+    margin-left: 205px;
+    color: rgb(200, 200, 200);
+}
+.list {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.lists {
+    list-style: none;
+
+}
+li {
+    margin-bottom: 15px;
+}
+a {
+    color: rgb(200, 200, 200);
+    font-size: 0.85rem;
+}
+.ddfooter {
+    margin-left: 205px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 320px) and (max-width: 450px) and (min-resolution: 300DPI) {
+
+}

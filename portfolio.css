@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Garamond, 'Times New Roman', serif;
+}
+  
+body, html {
+    height: 100%;
+}
+.everything {
+    background-color: #dae7fd;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    min-width: none;
+}
+.inner {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    min-height: 0px;
+    max-width: 1200px;
+    background-color: white;
+    padding: 50px;
+    flex-flow: 2 4;
+    flex-direction: column;
+    border-radius: 60px 0px;
+}
+a {
+    cursor:pointer;
+}
+/*Hello World*/
+
+.hello-world {
+    display: flex;
+    flex-direction:  column;
+    margin-bottom: -50px;
+}
+.hello {
+    position: relative;
+    left: 20%;
+    opacity: 0.25;
+}
+.hello:hover {
+    opacity: 1;
+}
+.ciao {
+    position: relative;
+    left: 20%;
+    opacity: 0.25;
+}
+.ciao:hover {
+    opacity: 1;
+}
+.hola {
+    position: relative;
+    left: 20%;
+    opacity: 0.25;
+}
+.hola:hover {
+    opacity: 1;
+}
+.bonjour {
+    position: relative;
+    left: 18%;
+    opacity: 0.25;
+}
+.bonjour:hover {
+    opacity: 1;
+}
+ h1{
+font-size: 60px;
+margin-top: 50px;
+font-family: "IM Fell Great Primer SC", serif;
+font-weight: 400;
+font-style: normal;
+}
+p {
+font-size: 25px;
+animation-duration: 3s;
+  }
+
+   @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+     to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.title {
+    margin-left: 37px;
+}
+address>p{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+.nav {
+  margin-bottom: 20px;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: flex-start;
+  flex: 2 2 500px;
+}
+.name {
+    margin-right: 1000px;
+    position: fixed;
+    font-size: 20px;
+}
+.info {
+    width: 50%;
+}
+.graphics {
+    width: 50%;
+}
+.quotes {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    animation: bounceIn 5s;
+}
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+
+    }
+    /* Graphics */
+}
+.Dayna-Marie {
+    display: block;
+  float: right;
+  width: 450px;
+  height: auto;
+  margin-top: -150px;
+  margin-right: -750px;
+  border-left: 10px solid #a8c8ff;
+  border-bottom: 10px solid #a8c8ff;
+  border-radius: 50%;
+}
+.lips {
+    margin-left: 916px;
+    margin-bottom: -75px;
+    width: 3%;
+    height: auto;
+    position: relative;
+    top: px;
+    left: 200px;
+    z-index: 2;
+    animation: kiss 2s infinite;
+}
+.moon {
+    position: absolute;
+    left: 71%;
+    width: 50px;
+    z-index: 3;
+    animation: moon 20s linear infinite;
+}
+.earth{
+    position: absolute;
+    width: 50px;
+    left: 82%;
+    top: 40px;
+    z-index: 2;
+}
+.earth-1 {
+    position: absolute;
+    width: 50px;
+    left: 82%;
+    top: 420px;
+    z-index: 2;
+}
+.sun {
+    position: absolute;
+    left: 92%;
+    top: 180px;
+    width: 73px;
+    animation: sun 20s linear infinite;
+}
+@keyframes moon {
+   
+   0%, 100% {
+        transform: translate(0px);
+    }
+    12.5% {
+        transform: translate(83.75px, -90.5px);
+    }
+    25% {
+        transform: translate(167.5px, -155px);
+        
+    }
+    37.5% {
+        transform: translate(251.25px, -100.5px);
+    }
+    50% {
+        transform: translate(335px);
+    }/*
+    62.5% {
+        transform: translate(300px, 150.5px);
+    }*/
+    75% {
+        transform: translate(167.5px, 225px);
+    }
+    /*
+    87.5% {
+    transform: translate(70px, 200px);
+    }*/
+}
+@keyframes sun {
+  
+    0%, 100% {
+        transform: translate(20px);
+    }
+    12.5% {
+        transform: translate(-90.75, -77.5px);
+   }
+    25% {
+        transform: translate(-167.6px, -155px);
+    }
+    37.5% {
+            transform: translate(); 
+    }
+    50% {
+        transform: translate(-355px);
+    }
+    /*
+    62.5% {
+        transform: translate(-300px, 115px);
+    }*/
+    75% {
+        transform: translate(-167.5px, 225px);
+    }
+    /*
+    87.5% {
+        transform: translate(-102.2px, 200px);
+    }*/
+}
+@keyframes kiss {
+0%, 100%{
+transform: scale(1);
+animation-timing-function: ease-out;
+}
+20%, 80% {
+transform: scale(1.15);
+animation-timing-function: ease-in;
+}
+40%, 60%{
+transform: scale(1.25);
+animation-timing-function: ease-out;
+}
+}
+
+@keyframes wobble {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(-1.2deg);
+	}
+}
+
+/*Hover and Active Tings*/
+.email a {
+  color: #000000;
+}
+.email a:hover {
+    background-color: #ffffff;
+
+}
+.nav a:hover {
+    border-right: 4px solid #b9d2fd;
+    border-bottom: 4px solid #dae7fd;
+    border-left: 2px  solid #dae7fd;
+    border-top: 2px solid #dae7fd;
+    transition: border 450ms ease-in;
+}
+.nav a:active {
+    border-top: 4px solid #b9d2fd ;
+    border-right: 3px solid #dae7fd ;
+    border-bottom: 3px solid #dae7fd ;
+    border-left: 4px solid #dae7fd ;
+    font-size: 17px;
+}
+a:active {
+    text-decoration: none;
+    font-size: 30px;
+}
+li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Projects*/
+
+/*.Dayna-Marie {
+display: flex;
+border: 2px solid black;
+padding: 10px;
+align-items: center;
+justify-content: space-between;
+}
+.project-div {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    flex: 2 2 150px;
+}*/
