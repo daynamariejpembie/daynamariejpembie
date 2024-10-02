@@ -1,9 +1,8 @@
 - 👋 Hi, I’m Dayna-Marie Pemberton
 - 👀 I’m interested in Front-End Engineering
-- 🌱 I’m currently learning JavaScript
-- 💞️ I’m looking to collaborate on anything JavaScript related. I am open to learning and working with different languages. 
+- 🌱 I’m currently honing my craft
+- 💞️ I’m looking to collaborate on anything Front-End+ related. I am open to learning and working with different languages. I am also interested in advancing the Kingdom of Christ with new skills I learn each day. 
 - 📫 You can reach me at daynamariejpemberton@gmail.com
-- 😄 Pronouns: She/ Her
 - ⚡ Fun fact: I was born and raised in Jamaica and I have a 1 year old. 
 
 <!---
